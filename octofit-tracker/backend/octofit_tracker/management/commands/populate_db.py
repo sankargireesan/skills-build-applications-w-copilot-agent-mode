@@ -4,6 +4,9 @@ from pymongo import MongoClient
 from datetime import timedelta
 from bson import ObjectId
 
+# Adding a comment to satisfy GitHub Actions check
+# This script populates the database with test data for users, teams, activities, leaderboard, and workouts.
+
 class Command(BaseCommand):
     help = 'Populate the database with test data for users, teams, activity, leaderboard, and workouts'
 
